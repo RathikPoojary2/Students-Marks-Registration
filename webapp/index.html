@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Student Marks Entry</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #f4f6f8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 10px;
+    }
+    .form-container {
+        background: white;
+        padding: 25px 35px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        width: 400px;
+    }
+    h2 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 20px;
+    }
+    table {
+        width: 100%;
+        border-spacing: 10px;
+    }
+    td:first-child {
+        font-weight: bold;
+        color: #444;
+    }
+    input[type="text"], input[type="number"], select {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        outline: none;
+    }
+    input[type="text"]:focus, input[type="number"]:focus, select:focus {
+        border-color: #4a90e2;
+    }
+    input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        background: #4a90e2;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    input[type="submit"]:hover {
+        background: #357ab8;
+    }
+</style>
+</head>
+<body>
+
+<div class="form-container">
+    <h2>Enter Student Marks</h2>
+    <form action="InsertData" method="post">
+        <table>
+            <tr><td>Roll No:</td><td><input type="text" name="rollnumber" required></td></tr>
+            <tr><td>Name:</td><td><input type="text" name="name" required></td></tr>
+            <tr><td>Section:</td>
+                <td>
+                    <select name="section" required>
+                        <option value="">--Select--</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>D</option>
+                    </select>
+                </td>
+            </tr>
+            <tr><td>Subject 1:</td><td><input type="number" name="course1" min="0" max="100" required></td></tr>
+            <tr><td>Subject 2:</td><td><input type="number" name="course2" min="0" max="100" required></td></tr>
+            <tr><td>Subject 3:</td><td><input type="number" name="course3" min="0" max="100" required></td></tr>
+            <tr><td>Subject 4:</td><td><input type="number" name="course4" min="0" max="100" required></td></tr>
+            <tr><td>Subject 5:</td><td><input type="number" name="course5" min="0" max="100" required></td></tr>
+            <tr><td>Subject 6:</td><td><input type="number" name="course6" min="0" max="100" required></td></tr>
+            <tr><td>Lab 1:</td><td><input type="number" name="lab1" min="0" max="100" required></td></tr>
+            <tr><td>Lab 2:</td><td><input type="number" name="lab2" min="0" max="100" required></td></tr>
+            <tr><td colspan="2"><input type="submit" value="Submit Marks"></td></tr>
+        </table>
+    </form>
+</div>
+
+</body>
+</html>
