@@ -33,5 +33,14 @@ CREATE TABLE students (
     lab1 INT,
     lab2 INT
 );
+</pre><br>
+<li>Update the username and password in both InsertData.java and Search.java</li><br>
+<pre>
+  DriverManager.getConnection(
+    "jdbc:mysql://localhost:3306/java_full_stack", 
+    "root", 
+    "your_password"
+);
+
 </pre>
 </ul>
