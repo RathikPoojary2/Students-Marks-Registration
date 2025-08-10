@@ -18,5 +18,19 @@ A Java Servlet-based web application for student marks entry and search function
 
   CREATE DATABASE java_full_stack;
 <br>
-<li>Create Students table</li>
+<li>Create Students table</li><br>
+CREATE TABLE students (
+    rollnumber VARCHAR(20) PRIMARY KEY,
+    name VARCHAR(100),
+    section VARCHAR(10),
+    course1 INT,
+    course2 INT,
+    course3 INT,
+    course4 INT,
+    course5 INT,
+    course6 INT,
+    lab1 INT,
+    lab2 INT
+);
+
 </ul>
