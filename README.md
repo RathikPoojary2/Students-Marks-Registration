@@ -57,5 +57,5 @@ CREATE TABLE students (
 Java JDK      -(https://www.oracle.com/java/technologies/javase-downloads.html) (version 8 or higher)<br>
 Apache Tomcat-(https://tomcat.apache.org/download-90.cgi)(version 10.1)<br>
 MySQL Server-(https://dev.mysql.com/downloads/mysql/)<br>
-MySQL Connector JAR file (place in `WEB-INF/lib/`)
+MySQL Connector JAR file (https://dev.mysql.com/downloads/connector/j/)
  
