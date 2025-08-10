@@ -15,6 +15,7 @@ A Java Servlet-based web application for student marks entry and search function
 
 <h1>Database Setup</h1>
 <ul><li>Create a Databse</li>
-CREATE DATABASE java_full_stack;
+
+  CREATE DATABASE java_full_stack;
 
 </ul>
