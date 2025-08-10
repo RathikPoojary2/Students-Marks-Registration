@@ -54,5 +54,5 @@ CREATE TABLE students (
   <li>Close the Connection</li>
 </ol>
 <h1>Installation</h1>
-Java JDK      -(https://www.oracle.com/java/technologies/javase-downloads.html) (version 8 or higher)
+Java JDK      -(https://www.oracle.com/java/technologies/javase-downloads.html) (version 8 or higher)<br>
  Apache Tomcat-(https://tomcat.apache.org/download-90.cgi)
