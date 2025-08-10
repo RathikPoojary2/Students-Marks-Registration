@@ -49,7 +49,9 @@ CREATE TABLE students (
 <ol>
   <li>Load the Driver </li>
   <li>Create a database Connection</li>
-  <li>create a Statement or Prepared Statement</li>
+  <li>Create a Statement or Prepared Statement</li>
   <li>Store it in the ResultSet</li>
   <li>Close the Connection</li>
 </ol>
+<h1>Installation</h1>
+[Java JDK](https://www.oracle.com/java/technologies/javase-downloads.html) (version 8 or higher)
