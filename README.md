@@ -39,8 +39,17 @@ CREATE TABLE students (
   DriverManager.getConnection(
     "jdbc:mysql://localhost:3306/java_full_stack", 
     "root", 
-    "your_password"
+    "password"
 );
 
 </pre>
 </ul>
+
+<h4>Steps to connect servlet to the database</h4>
+<ol>
+  <li>Load the Driver </li>
+  <li>Create a database Connection</li>
+  <li>create a Statement or Prepared Statement</li>
+  <li>Store it in the ResultSet</li>
+  <li>Close the Connection</li>
+</ol>
