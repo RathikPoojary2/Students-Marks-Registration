@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Student Marks Entry</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="form-container">
+    <h2>Enter Student Marks</h2>
+    <form action="InsertData" method="post">
+        <table>
+            <tr><td>Roll No:</td><td><input type="text" name="rollnumber" required></td></tr>
+            <tr><td>Name:</td><td><input type="text" name="name" required></td></tr>
+            <tr><td>Section:</td>
+                <td>
+                    <select name="section" required>
+                        <option value="">--Select--</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>D</option>
+                    </select>
+                </td>
+            </tr>
+            <tr><td>Subject 1:</td><td><input type="number" name="course1" min="0" max="100" required></td></tr>
+            <tr><td>Subject 2:</td><td><input type="number" name="course2" min="0" max="100" required></td></tr>
+            <tr><td>Subject 3:</td><td><input type="number" name="course3" min="0" max="100" required></td></tr>
+            <tr><td>Subject 4:</td><td><input type="number" name="course4" min="0" max="100" required></td></tr>
+            <tr><td>Subject 5:</td><td><input type="number" name="course5" min="0" max="100" required></td></tr>
+            <tr><td>Subject 6:</td><td><input type="number" name="course6" min="0" max="100" required></td></tr>
+            <tr><td>Lab 1:</td><td><input type="number" name="lab1" min="0" max="100" required></td></tr>
+            <tr><td>Lab 2:</td><td><input type="number" name="lab2" min="0" max="100" required></td></tr>
+            <tr><td colspan="2"><input type="submit" value="Submit Marks"></td></tr>
+        </table>
+    </form>
+</div>
+
+</body>
+</html>
