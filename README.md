@@ -11,3 +11,10 @@ A Java Servlet-based web application for student marks entry and search function
 <li>Styled HTML forms for a clean user interface.</li>
 
 <li>Uses MySQL JDBC for database connectivity.</li>
+</ul>
+
+<h1>Database Setup</h1>
+<ul><li>Create a Databse</li>
+CREATE DATABASE java_full_stack;
+
+</ul>
