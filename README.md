@@ -2,7 +2,7 @@
 
 A Java Servlet-based web application for student marks entry and search functionality using MySQL as the database.
 
-<h4>Features</h4>
+<h1>Features</h1>
 <ul>
 <li>Add Student Marks — Enter details like roll number, name, section, subjects, and lab scores.</li>
 
